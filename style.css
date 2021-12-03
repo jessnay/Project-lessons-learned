@@ -1,0 +1,181 @@
+:root {
+ --trybe-color: #11a36a; 
+ --backgroud: rgb(253, 251, 251);
+ --color-font-header: white;
+ --border:#e1e5eb;
+ --box-shadow: silver;
+ --gray: #29313d;
+}
+body, html{
+    background-color: var(--backgroud);
+    font-family:'Montserrat', sans-serif;
+    margin: 0;  
+    height: 100%;
+    width: 100%; 
+} 
+#cabecalho{
+    background-color: var(--trybe-color);
+    position: fixed;
+    top: 0;
+    height:120px ;
+    width: 100%
+}
+#titulo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: var(--color-font-header); 
+}
+#logo-trybe{
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px 
+}
+#minha_foto{
+  height: 350px;
+  width: 480px;
+  border-radius: 2%;
+  border: 2px solid var(--border);
+  box-shadow: 2.5px 2.5px 2.5px 2.5px var(--box-shadow);
+} 
+.img{
+ position:absolute;
+ top: 150px; 
+ left:30px; 
+ }
+ #introducao{
+     position:absolute;
+     top: 150px;
+     left: 33%;
+     font-weight: 700;
+     font-size: 25px;
+     width: 63%;
+     text-align: justify;
+     color: var(--gray)
+ }
+ .lado-direito{
+     position:absolute;
+     top: 250px;
+     width: 30%;
+     left: 33%;
+     text-align: justify;
+     letter-spacing:2px ;
+ }
+ .lado-esquerdo{
+     position: absolute;
+     top: 250px;
+     width: 30%;
+     left: 66%;
+     text-align: justify;
+     letter-spacing: 2px;
+ }
+ #item{
+    position: absolute;
+    top: 530px;
+    left: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--border);
+    background-color: #11a36a;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+ }
+ #licoes_aprendidas{
+     position:relative;
+     top:600px; 
+     left: 0%;
+     width: 95%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+ }
+ .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10{
+    background-color:var(--color-font-header);
+    border: 2px solid var(--border);
+    box-shadow: 1px 1px 1px 1px var(--box-shadow); 
+    padding: 3px 3px 3px 3px;
+    margin: 1px 10px 1px 1px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 700;
+    border-radius: 5%;
+    height: 25px;
+    width: 250px;
+    transition: transform 0.6s ease-in-out;  
+    transition: box-shadow 0.2s ease-in-out;
+ }
+ .item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover, .item7:hover, .item8:hover, .item9:hover, .item10:hover{
+    border: 3px solid var(--gray);
+    transform: scale(1); 
+    box-shadow: 0 5px 15px var(--gray);  
+ }
+ #botao{
+    position: absolute;
+    top: 725px;
+    left: 1.5%;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--border);
+    background-color: #11a36a;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+ }
+ #licoes_a_aprender{
+     position:absolute;
+     top: 800px;
+     left: 0%;
+     width: 95%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: niowrap;
+     justify-content: space-between;  
+ }
+ .botao1, .botao2, .botao3, .botao4, .botao5, .botao6, .botao7, .botao8, .botao9, .botao10{
+    background-color:var(--color-font-header);
+    border: 2px solid var(--border);
+    box-shadow: 1px 1px 1px 1px var(--box-shadow);
+    padding: 3px 3px 3px 3px;
+    margin: 1px 10px 1px 1px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 700;
+    border-radius: 5%;
+    height: 25px;
+    width: 250px;
+    transition: transform 0.6s ease-in-out;  
+    transition: box-shadow 0.2s ease-in-out;  
+ }
+ .botao1:hover, .botao2:hover, .botao3:hover, .botao4:hover, .botao5:hover, .botao6:hover, .botao7:hover, .botao8:hover, .botao9:hover, .botao10:hover {
+    border: 3px solid var(--gray);
+    transform: scale(1); 
+    box-shadow: 0 5px 15px var(--gray); 
+ }
+ ol{
+     list-style: none;
+ }
+ ul{
+     list-style: none; 
+ }
+ #tabela{
+     position: absolute;
+     bottom:0;
+     font-family:'Montserrat', sans-serif; 
+     font-size: 10px;
+     right: 1px;
+ }
+ #rodape{
+     background: var(--trybe-color);
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }
+ #link_rodape{
+     text-align: center;
+     font-size: 15px;
+     font-weight: 300;
+ }
+     
